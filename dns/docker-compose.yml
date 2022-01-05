@@ -1,0 +1,12 @@
+version: '3'
+services:
+  service:
+    dns:
+      - "1.0.0.1"
+      - "1.1.1.1"
+    network_mode: "bridge"
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    ports:
+      - "15672:15672"
