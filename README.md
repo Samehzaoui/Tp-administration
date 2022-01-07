@@ -1,5 +1,8 @@
 # Tp-administration
 
+## Model :
+<img src="https://i.ibb.co/4VgyCvK/maquett-adminstration.png" alt="maquett-adminstration" border="0" width="1000"> 
+
 
 `Running a full php application into docker containers, using the docker compose to spinning up multiples containers`
 
